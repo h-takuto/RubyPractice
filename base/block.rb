@@ -24,7 +24,7 @@ def arithmetic_sequence(init: 1, diff: 1, count: 10)
   end
 end
 
-arithmetic_sequence(init: 2, diff: 3, count: 5) do |n|
+arithmetic_sequence(init: 5, diff: 4, count: 10) do |n|
   puts n
 end
 
